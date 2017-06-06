@@ -94,16 +94,99 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+img {
+  width: 100%;
+}
+.demarche {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.demarche h2 {
+  width: 100%;
+  color: gold;
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+}
 
 
+.demarche .arbre {
+  width: 50%;
+  margin: 0px;
+}
 
+.arbre img {
+  height: 90vh;
+}
 
+.demarche p, .contact p {
+  width: 50%;
+  text-align: center;
+  display: flex;
+    align-items: center;
+}
 
+.quadrillage article {
+  width: 100%;
+  display: flex;
+}
 
+.quadrillage article figure {
+  width: 33.33%;
+  margin: 0px;
+}
 
+.quadrillage article p {
+  width: 33.33%;
+  text-align: center;
+}
 
+.quadrillage h2, .references h2, .contact h2 {
+  width: 100%;
+  color: gold;
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+}
 
+#carouselExampleIndicators {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
 
+#carouselExampleIndicators .carousel-item {
+  justify-content: center;
+}
+.references, .contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.carousel-indicators li {
+  background-color: gold;
+}
+
+.references figure, .contact figure {
+  margin: 0px;
+  width: 50%;
+}
+
+.references figure img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+}
+
+footer article {
+  width: 33.33%;
+  text-align: center;
+}
 
 
 
